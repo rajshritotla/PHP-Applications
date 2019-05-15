@@ -1,0 +1,29 @@
+
+[main_div]{
+    align-content: center;
+    width:40%;
+    margin: 2%
+    
+}
+
+form{
+    margin: 10%;
+}
+
+div{
+    height: fit-content;
+    display: block;
+    margin-top: 5%;
+    
+}
+
+select,option, input[type="text"],input[type="submit"]{
+    margin: 1%;
+    padding: 1%;
+    float: right;
+}
+
+label{
+    float: left;
+}
+

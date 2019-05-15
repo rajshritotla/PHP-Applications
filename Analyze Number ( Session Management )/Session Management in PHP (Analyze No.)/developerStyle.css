@@ -1,0 +1,23 @@
+div[main_div]{
+    margin: 1%;
+    padding: 1%;
+}
+
+div{
+    margin: 1%;
+}
+
+body,div,tr,td,th,label,legend,h3,input[type="text"]{
+    font-family: 'Handlee', cursive;
+}
+
+legend{
+    font-size: 150%;
+}
+
+body{
+    background-color: darksalmon;
+    color: black;
+    font-size: 150%;
+}
+    

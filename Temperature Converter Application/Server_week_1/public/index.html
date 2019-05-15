@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Temperature Conversion</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .cl{
+                background-color: aqua;
+                color: royalblue;
+                width: 50%;
+                margin: 20px;
+            }
+            .fh{
+                background-color: pink;
+                color: red;
+                width: 50%;
+                margin: 20px;
+                margin-top: 20px;
+            }
+            
+            .box_{
+                margin: 10px;
+                background-color: darkblue;
+                width: 40%;
+                height: fit-content;                 
+            }
+           
+        </style>
+    </head>
+ 
+    <body>
+        <script>
+            function celsius(f){
+                var converted_c_from_f=f-32*5/9;
+                var converted_k_from_c_from_f= converted_c_from_f+273.15;
+                document.getElementById('celsius_value_1').value=converted_c_from_f;
+                document.getElementById('kelvin_value_1').value=converted_k_from_c_from_f;
+            }
+            
+            function fahrenheit(c){
+                var converted_f_from_c=c*9/5+32;
+                var converted_k_from_f_from_c= (converted_f_from_c-32)*(5/9)+273.15;
+                document.getElementById('fahrenheit_value_2').value=converted_f_from_c;
+                document.getElementById('kelvin_value_2').value=converted_k_from_f_from_c;
+            }  
+        </script>
+        <div class="box_">
+        <div class="fh"><h3>Working of Celsius module:</h3></div>
+        <div class="fh"><h3>F: <input type="number" id="fahrenheit_value_1" step="0.01"></h3></div>
+        <div class="fh"><h3>C: <input type="number" id="celsius_value_1" onclick="celsius(parseFloat(document.getElementById('fahrenheit_value_1').value))" readonly="readonly"></h3></div>
+        <div class="fh"><h3>K: <input type="number" id="kelvin_value_1" onclick="celsius(parseFloat(document.getElementById('fahrenheit_value_1').value))" readonly="readonly"></h3></div>
+    
+        <div class="cl"><h3>Working of Fahrenheit module:</h3></div>
+        <div class="cl"><h3>C: <input type="number" id="celsius_value_2"></h3></div>
+        <div class="cl"><h3>F: <input type="number" id="fahrenheit_value_2" onclick="fahrenheit(parseFloat(document.getElementById('celsius_value_2').value));" readonly="readonly"></h3></div>
+        <div class="cl"><h3>K: <input type="number" id="kelvin_value_2" onclick="fahrenheit(parseFloat(document.getElementById('celsius_value_2').value))" readonly="readonly"></h3></div>
+        </div>
+       </body>
+</html>
