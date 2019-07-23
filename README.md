@@ -1,2 +1,2 @@
 # PHP-Projects
-PHP quick/small/learning projects
+Quick/small/learning application or projects
