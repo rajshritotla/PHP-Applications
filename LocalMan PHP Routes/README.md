@@ -1,5 +1,5 @@
 # LocalMan
-In this exercise, am creating routes for a website called localman (Using PHP)
+This application creates routes for a website called localman (Using PHP) which let + - or update reviews for the places.
 
 # Using HTTP request methods
 The website will have the following routes:
