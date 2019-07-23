@@ -1,12 +1,13 @@
-Converter Application 
-1. A module called Celsius that does:
+# Converter Application 
 
-    a. Has the ability to convert a Fahrenheit value to Celsius.
+# 1. A module called Celsius that does:
 
-    b. Has the ability to convert a Celsius value to Kelvin.
+a. Has the ability to convert a Fahrenheit value to Celsius.
 
-2. A module called Fahrenheit that does:
+b. Has the ability to convert a Celsius value to Kelvin.
 
-    a. Converts a Celsius value to Fahrenheit.
+# 2. A module called Fahrenheit that does:
 
-    b. Converts a Fahrenheit value to Kelvin
+a. Converts a Celsius value to Fahrenheit.
+
+b. Converts a Fahrenheit value to Kelvin
