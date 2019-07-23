@@ -2,9 +2,7 @@
 
 Collect numbers from the users and after they finish indicating all of them, derive all the patterns in the data as you can using PHP.
 
-# Requirements for this exercise
-
-Derive at least these data points:
+# Application Features/Minimum Requirements
 
 What is the percentage of even numbers the user indicated?
 	
